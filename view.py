@@ -61,7 +61,7 @@ class Ui_MainWindow(object):
         self.text_output = QtWidgets.QLabel(self.centralwidget)
         self.text_output.setGeometry(QtCore.QRect(30, 200, 231, 141))
         self.text_output.setAutoFillBackground(False)
-        self.text_output.setText("output here")
+        self.text_output.setText("")
         self.text_output.setScaledContents(False)
         self.text_output.setAlignment(QtCore.Qt.AlignCenter)
         self.text_output.setObjectName("text_output")
